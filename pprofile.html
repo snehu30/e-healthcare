@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Edit Profile</title>
+<link rel="stylesheet" href="styleshome.css">
+</head>
+<body>
+<h2>Edit Profile</h2>
+<form action="pprofile.php" method="post">
+    <label for="fullname">Full Name:</label>
+    <input type="text" id="fullname" name="fullname" required ><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+    </select><br><br>
+    <label for="blood_group">Blood Group:</label>
+    <select id="blood-group" name="blood-group">
+        <option value="A+">A+</option>
+        <option value="A-">A-</option>
+        <option value="B+">B+</option>
+        <option value="B-">B-</option>
+        <option value="AB+">AB+</option>
+        <option value="AB-">AB-</option>
+        <option value="O+">O+</option>
+        <option value="O-">O-</option>
+    </select><br><br>
+    <label for="contactinfo">Mobile no.:</label>
+    <input type="text" id="contactinfo" name="contactinfo" required ><br><br>
+
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" required><br><br>
+
+    <label for="age">Age:</label><br>
+    <input type="age" id="age" name="age" required><br><br>
+
+    <label for="height">Height:</label><br>
+    <input type="height" id="height" name="height" required><br><br>
+    
+    
+    <label for="weight">Weight:</label><br>
+    <input type="weight" id="weight" name="weight" required><br><br>
+
+    <label for="myText">What symptoms are you experiencing?</label><br>
+    <input type="text" id="myText" name="myText"><br><br>
+
+    Do you have any pre-existing medical conditions?<br>
+    <label>
+        <input type="radio" name="select" value="Yes">
+        Yes
+    </label>
+
+    <label>
+        <input type="radio" name="select" value="No">
+        No
+    </label><br><label for="myText">If Yes, mention</label><br>
+    <input type="text" id="myText" name="myText"><br><br>
+
+    Have you had any surgeries or medical procedures in the past? <br>
+    <label>
+        <input type="radio" name="select1" value="Yes">
+        Yes
+    </label>
+
+    <label>
+        <input type="radio" name="select1" value="No">
+        No
+    </label><br><label for="myText">If Yes, mention</label><br>
+    <input type="text" id="myText" name="myText"><br><br>
+    Do you smoke or use recreational drugs?<br>
+    <label>
+        <input type="radio" name="select2" value="Yes">
+        Yes
+    </label>
+
+    <label>
+        <input type="radio" name="select2" value="No">
+        No
+    </label><br><br>
+    Have you been feeling stressed, anxious, or depressed? <br>
+    <label>
+        <input type="radio" name="select3" value="Yes">
+        Yes
+    </label>
+
+    <label>
+        <input type="radio" name="select3" value="No">
+        No
+    </label><br><br>
+    Have you started any new medications or supplements recently?<br>
+    <label>
+        <input type="radio" name="select4" value="yes">
+        Yes
+    </label>
+    <label>
+        <input type="radio" name="select4" value="No">
+        No
+    </label><br><label for="myText">If Yes, mention</label>
+    <input type="text" id="myText" name="myText"><br><br>
+
+    <div id="upload-container">
+        <label for="report">Upload Report if any:</label>
+        <input type="file" id="upload-input" name="report">
+    </div>
+</form>
+</body>
+</html>

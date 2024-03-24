@@ -1,0 +1,116 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://img.freepik.com/premium-photo/medicine-doctor-holding-stethoscope-hand-hospital-background_34200-277.jpg'); /* Replace 'your-background-image.jpg' with the actual path to your image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 0;
+    backdrop-filter: blur(10px);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding:2rem;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f4f4f4;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.services {
+    padding: 20px 0;
+}
+
+.service {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.doctors {
+    padding: 20px 0;
+}
+.contact-form{
+    max-width:600px;
+    margin:0 auto;
+}
+.form-group{
+    margin-bottom:1rem;
+}
+label{
+    display:block;
+    font-weight:bold;
+}
+input[type="text"],
+input[type="email"],
+textarea{
+    width:100%;
+    padding:0.5rem;
+    border:1px solid #ccc;
+    border-radius:4px;
+}
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

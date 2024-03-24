@@ -1,0 +1,113 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://img.freepik.com/premium-photo/medicine-doctor-holding-stethoscope-hand-hospital-background_34200-277.jpg'); /* Replace 'your-background-image.jpg' with the actual path to your image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 0;
+    backdrop-filter: blur(10px);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+}
+
+  .dashboard-container {
+    width: 100%;
+    height: 80vh; 
+    display: flex;
+    justify-content: 20px 50px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .profile-name {
+    position: absolute; /* Position relative to parent */
+    bottom: 0; /* Align at the bottom */
+    left: 50%; /* Align at the center */
+    transform: translateX(-50%); /* Center horizontally */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    padding: 5px 10px; /* Adjust padding */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  .option {
+    margin-top: 20px; 
+    font-size: 30px;
+    cursor: pointer;
+    border: 1px solid #ccc; 
+    padding: 15px 50x;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  .option:hover {
+    background-color: #f0f0f0; 
+  }
+
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.profile-picture {
+    width: 120px; /* Adjust size as needed */
+    height: 120px; /* Adjust size as needed */
+    /*object-fit:cover;
+    margin:10px auto;
+    border: 10px solid #0b0a0a;
+    border-radius: 50%; /* Make it round */
+    /*margin-bottom: 10px; /* Adjust spacing between picture and name */
+  }
+  
+footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position:absolute;
+
+    scroll-behavior: smooth;
+    bottom: 0;
+    width: 100%;
+
+}
+.profile-item{
+  display: flex;
+}

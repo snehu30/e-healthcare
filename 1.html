@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleshome.css">
+    <title>Video Conferencing</title>
+    <link rel="stylesheet" href="2.css">
+    <style>
+        body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://img.freepik.com/premium-photo/medicine-doctor-holding-stethoscope-hand-hospital-background_34200-277.jpg'); /* Replace 'your-background-image.jpg' with the actual path to your image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+     </style>  
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">E-Healthcare</div>
+            <ul>
+                <li><a href="pdashboard.php">Dashboard</a></li>
+                <li><a href="pre.html">Prescription</a></li>
+                <li><a href="appointments.html">Book Appointments</a></li>
+                <li><a href="logout.php">Log out</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="video-container">
+            <video id="localVideo" autoplay muted></video>
+            <video id="remoteVideo" autoplay></video>
+        </div>
+        <button id="startButton">Start Video Call</button>
+        <button id="endButton">End Video Call</button>
+    </div>
+    <script src="scripts.js"></script>
+    <footer>
+        <p>&copy; 2024 E-Healthcare. All rights reserved.</p>
+        </footer>
+</body>
+</html>
